@@ -1,10 +1,42 @@
-# Charge-Up-Jump
+# Charge-Up Jump UnityPackage
 
-Please download the unity package and import it into unity.
-Go to the roll-a-ball scene and go into the ChargeJump folder that's inside the Mechanic folder and drag the ChargeBarUI Prefab under the GameView's Canvas.
-Change the x position for the Prefab to -80 and the y to -100. Feel free to adjust these values according to your preference.
-Next, Go to the Player GameObject under GameModel and add the two scripts in the ChargeJump folder. Add the ChargeBarFill GameObject to the ChargeBarFill reference under the ChargeJump script in the Player's inspector.
-Lastly, please go to the ground game object under decorations and add a Ground tag to it.
-That should be it, please let me know if there are any issues!
+## 1. Identifying information
+- **Full name:** Manuel Pangelinan  
+- **Student ID:** 2450241  
+- **Chapman email:** mpangelinan@chapman.edu  
+- **Course & section:** GAME 244-01  
+- **Assignment:** Roll-A-Ball Mechanic Design & Package  
 
-# Feel free to test out values that work better for your game!
+---
+
+## 2. Submitted files
+- chargeupjump.unitypackage  
+- README.md  
+
+---
+
+## 3. Instructions for running / testing
+
+1. **Import the package**  
+   - In Unity, go to Assets > Import Package > Custom Package  
+   - Import ChargeUpJump.UnityPackage  
+
+2. **Set up the Charge Bar UI**  
+   - Open the Roll-A-Ball scene  
+   - Navigate to the imported folder: Assets > Mechanics > ChargeJump  
+   - Drag the ChargeBarUI Prefab into the Canvas under GameView.  
+   - Set the X position to -80 and the Y position to -100  
+
+3. **Add player components**  
+   - In the Hierarchy, find the Player GameObject under GameModel.  
+   - Add the two scripts located in Mechanics/ChargeJump:  
+     - PlayerChargeJump.cs  
+     - PlayerAirControlModifier.cs  
+   - In the Player’s Inspector, assign the ChargeBarFill GameObject to the ChargeBarFill field under the PlayerChargeJump script.  
+
+4. **Set up ground detection**  
+   - Select the Ground GameObject under Decorations.  
+   - Add a new tag named Ground and assign it to this object.  
+
+## Notes
+Adjust values in the Inspector for the ball, and the chargebar as well  
