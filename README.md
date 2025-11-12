@@ -7,13 +7,9 @@
 - **Course & section:** GAME 244-01  
 - **Assignment:** Roll-A-Ball Mechanic Design & Package  
 
----
-
 ## 2. Submitted files
 - chargeupjump.unitypackage  
 - README.md  
-
----
 
 ## 3. Instructions for running / testing
 
@@ -28,10 +24,7 @@
    - Set the X position to -80 and the Y position to -100  
 
 3. **Add player components**  
-   - In the Hierarchy, find the Player GameObject under GameModel.  
-   - Add the two scripts located in Mechanics/ChargeJump:  
-     - PlayerChargeJump.cs  
-     - PlayerAirControlModifier.cs  
+   - Go to the Player GameObject under GameModel and add the two scripts located in Mechanics/ChargeJump 
    - In the Player’s Inspector, assign the ChargeBarFill GameObject to the ChargeBarFill field under the PlayerChargeJump script.  
 
 4. **Set up ground detection**  
